@@ -1,50 +1,78 @@
-# Power BI Sales Performance Analysis
+# Sales & Orders Performance Analysis | Power BI
 
-An interactive business intelligence dashboard built with Microsoft Power BI to explore retail order performance, sales, profitability, products, customers, geography, discounts, and shipping.
+An interactive, two-page Power BI report built to explore retail sales performance and order distribution using the Sample Superstore practice dataset.
+
+The report includes separate **Order Dashboard** and **Sales Dashboard** pages, allowing users to examine both order activity and sales results across products, categories, customer segments, and geography.
 
 ## Project overview
 
-This project examines the Sample Superstore retail practice dataset and presents key business metrics in an interactive report. It demonstrates practical data analysis, dashboard design, and business performance reporting using sample data.
+This project demonstrates how a retail dataset can be transformed into an interactive business intelligence report. It is designed to help users explore performance patterns, compare business dimensions, and investigate results through report filters and visualisations.
 
-## Analysis areas
+## Dashboard pages
 
-- Sales, profit, and order performance
-- Product category and sub-category analysis
-- Customer segment performance
-- Country, state, and city comparisons
-- Discount analysis
-- Shipping mode and delivery trends
-- Order-level detail exploration
+### 1. Order Dashboard
 
-## Tools
+The Order Dashboard focuses on order volume and distribution. It includes:
 
-- **Microsoft Power BI Desktop** — data modelling, report development, and interactive visualisation
+- Total orders by region
+- Total orders by product category
+- Quarterly order trends
+- Top 10 states by order count
+- Top 10 products by order count
+- Order distribution across customer segments
+- Year selection through a report slicer
+
+### 2. Sales Dashboard
+
+The Sales Dashboard focuses on sales performance and comparisons. It includes:
+
+- Total sales by category
+- Sales by region
+- Top 10 states by sales
+- Sales by customer segment
+- Sales by year compared with the available target measure
+- Top 10 products by sales
+- Year selection through a report slicer
+
+## Tools and technologies
+
+- **Microsoft Power BI Desktop** — report development, data modelling, and interactive visualisation
 - **Microsoft Excel** — source dataset
 
-## Project files
+## Repository files
 
 | File | Description |
 |---|---|
-| `Orders_Dashboards.pbix` | Interactive Power BI report |
-| `Orders_Project_Dashboard_Datasets.xlsx` | Excel source workbook |
-| `screenshots/` | Dashboard preview images (to be added) |
+| `Orders_Dashboards.pbix` | Power BI report containing the Order Dashboard and Sales Dashboard pages |
+| `Orders_Project_Dashboard_Datasets.xlsx` | Excel workbook used as the project dataset |
 
 ## Dataset
 
-The workbook contains 9,994 order records and 21 columns in its populated worksheet. The data includes order and shipping dates, customer and geographic attributes, product details, sales, quantity, discount, and profit.
+The project uses the Sample Superstore practice dataset. The source workbook contains **9,994 order records** and includes fields relating to orders, dates, customers, geography, products, sales, quantity, discounts, and profit.
 
-This is a sample-data portfolio project, not a representation of real employer or client performance. The dataset's original source and redistribution terms should be retained and checked before redistributing the workbook. Do not add private customer or confidential business data.
+This is a sample-data portfolio project. It does not represent actual employer, client, or live business performance. Please retain the dataset's original attribution and check its redistribution terms before sharing the source workbook elsewhere.
 
-## How to use
+## How to explore the report
 
-1. Download the Power BI report (`.pbix`) after it has been added to this repository.
-2. Open it in Microsoft Power BI Desktop.
-3. Use report filters, slicers, and visuals to explore the business dimensions.
+1. Download `Orders_Dashboards.pbix` from this repository.
+2. Open the file in Microsoft Power BI Desktop.
+3. Navigate between **Order Dashboard** and **Sales Dashboard**.
+4. Use the available year slicer and interactive visuals to explore the data.
 
-## Objective
+## Business questions explored
 
-Communicate business performance clearly, identify patterns in orders and profitability, and support data-informed decisions through an interactive dashboard.
+- How are orders distributed across regions and product categories?
+- Which states and products contribute the highest order volumes?
+- How do sales vary by category, region, state, and customer segment?
+- How do yearly sales compare with the target measure included in the report?
+- Which products and customer segments stand out in the selected view?
+
+## Project objective
+
+To practise building a clear, interactive Power BI report that turns raw retail data into useful views of sales performance and order activity. The project highlights dashboard development, business-oriented analysis, and communicating data through visual reporting.
 
 ## Author
 
 **Aadi9557**
+
+[View this repository on GitHub](https://github.com/Aadi9557/Power-BI-Sales-Performance-Analysis)
